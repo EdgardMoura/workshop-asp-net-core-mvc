@@ -1,0 +1,11 @@
+﻿using SalesWebMvc.Models.Enums;
+
+namespace SalesWebMvc.Models.Enums
+{
+    public enum SalesStatus : int
+    {
+        Pending = 0,
+        Billed = 1,
+        Caceled = 2
+    }
+}
